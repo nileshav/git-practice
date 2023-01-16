@@ -64,8 +64,20 @@
     |- git merge <branch-name>
   |- conflict resolution
 *********************************
-Interview Question
+Interview Git Question.
 1. Let me know how do you configure the git at your local system?
 2. how to commit without staging.
 3. How does git understand that rename or move with git mv command?
-4. What is the difference between author and commit
+4. What is the difference between author and commit?
+5. What does git clone do?
+6. What does the command git config do?
+7. What is a conflict and how do you resolve?
+8. What does git status command do?
+9. How will you create a git repository?
+10. Tell me something about git stash?
+11. What is the command used to delete a branch?
+12. What differentiates between the commands git remote and git clone?
+13. Differentiate between git pull and git fetch.
+14. What command helps us know the list of branches merged to master?
+15. How to revert a bad commit which is already pushed?
+16. Can you tell the differences between git revert and git reset?
