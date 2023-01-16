@@ -1,0 +1,62 @@
+- Installation of Git
+- Architecture of Git
+- Configuration of Git
+  |- git config --global username
+  |- git config --global email
+  |- git config --list
+- Linux Few Commands
+  |- ls 
+  |- cd
+  |- rm
+  |- mv
+  |- cp
+- Git Commands
+  |- git status
+  |- git init
+  |- git diff
+  |- git add
+  |- git commit
+  |- git show
+  |- git commit -a -m "commits"
+- move, rename, delete file using git
+  |- git rm <filename>
+  |- git mv <file1> <file2>
+- How to check git commits
+  |- git show <commitname>
+  |- git log
+  |- git log --oneline
+  |- git log --pretty = online
+  |- git log --pretty = short
+  |- git log --pretty = long
+|- What is the difference between author and commit
+|- how to unmodify, unstage, delete the commit
+  |- git checkout --filename
+  |- git checkoout -f
+  |- git restore --stage <filename>
+  |- git reset --hard <commitId>
+|- git alias
+  |- git config --global alias.st status
+  |- git config --global alias.cm commit
+|- Working with remote directory
+  |- create github account
+  |- create ssh key and add to the remote github account
+    |- ssh-keygen -t ed25519 -C "nilesh.1234avhad@gmail.com"
+	|- eval "$(ssh-agent -s)"
+	|- ssh-add ~/.ssh/id_ed25519
+	|- ls -al ~/.ssh
+	|- cat ~/.ssh/id_ed25519.pub
+  |- add ssh key to remote github account
+  |- create remote connection with remote repository
+    |- git remote add origin <URL of remote directory>
+	|- git clone
+	|- git pull
+	|- git push
+|- git branching statergy
+  |- architechure
+  |- creation of new branch from old branch
+    |- git checkout -b <new-branch-name>
+	|- git checkout branch 
+	|- git branch
+  |- merging he branch
+    |- git merge <branch-name>
+  |- conflict resolution
