@@ -1,21 +1,24 @@
 - Installation of Git
 - Architecture of Git
+- Git Initialization
 - Configuration of Git
-  |- git config --global username
+  |- git config --global username  
   |- git config --global email
   |- git config --list
 - Linux Few Commands
-  |- ls 
-  |- cd
-  |- rm
-  |- mv
-  |- cp
+  |- touch
+  |- ls (list)
+  |- cd (Change directory)
+  |- rm (remove files/folders)
+  |- mv (rename or move the files/folders)
+  |- cp (copy files/folders)
+  |- cat (contatination)
 - Git Commands
   |- git status
   |- git init
-  |- git diff
   |- git add
   |- git commit
+  |- git diff
   |- git show
   |- git commit -a -m "commits"
 - move, rename, delete file using git
@@ -60,3 +63,5 @@
   |- merging he branch
     |- git merge <branch-name>
   |- conflict resolution
+*********************************
+Interview Question
