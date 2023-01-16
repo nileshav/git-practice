@@ -40,6 +40,7 @@
 |- git alias
   |- git config --global alias.st status
   |- git config --global alias.cm commit
+******************************************************************
 |- Working with remote directory
   |- create github account
   |- create ssh key and add to the remote github account
