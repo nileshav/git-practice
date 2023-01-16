@@ -67,3 +67,5 @@
 Interview Question
 1. Let me know how do you configure the git at your local system?
 2. how to commit without staging.
+3. How does git understand that rename or move with git mv command?
+4. What is the difference between author and commit
