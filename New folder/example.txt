@@ -1,1 +1,1 @@
-<html><h>This is my html page</h></html>
+<html><h>This is my html page.</h></html>
